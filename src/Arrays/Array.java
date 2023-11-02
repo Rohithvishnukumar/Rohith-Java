@@ -1,3 +1,5 @@
+package Arrays;
+
 import java.util.Scanner;
 import java.util.stream.IntStream;
 
@@ -6,7 +8,7 @@ public class Array {
 
         Scanner scr = new Scanner(System.in);
 
-//        Different styles of Array Declarations
+//        Different styles of Arrays.Array Declarations
 
 
         int[] arr = new int[5];
@@ -29,5 +31,5 @@ public class Array {
 }
 
 
-// 1) The size of the Array is fixed (Once declared you cannot change the size)
+// 1) The size of the Arrays.Array is fixed (Once declared you cannot change the size)
 // 2) For appending of any elements in an array we need to create a new array of length greater than the previous and copy the contents and you can append
