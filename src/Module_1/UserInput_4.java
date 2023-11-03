@@ -9,14 +9,17 @@ public class UserInput_4 {
         Scanner scr = new Scanner(System.in);
         System.out.print("enter :  ");
         String str = scr.nextLine();
+        System.out.print("enter :  ");
+        String var = scr.next();
         
 
         System.out.println(str.charAt(0));
         System.out.println(str.indexOf("r"));
 
-        System.out.println(str);
+        System.out.println("Next line ------------  " + str);
+        System.out.println("Next-------  " + var);
     }
 }
 
 
-// The main difference between next() and nextInt() is next() only takes without spaces if there is a space between a word then it ignores all content after the space 
+// The main difference between next() and nextLine() is next() only takes without spaces if there is a space between a word then it ignores all content after the space 

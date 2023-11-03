@@ -8,7 +8,7 @@ public class VariableNamingConvention_3 {
 
         int _Var = 88;
 
-        int $temp = 35;
+        int $temp = 35;  // no symbil is allowed but only dollar is allowed
 
         // int #yourVar = 24;
 
