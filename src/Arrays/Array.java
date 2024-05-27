@@ -33,3 +33,5 @@ public class Array {
 
 // 1) The size of the Arrays.Array is fixed (Once declared you cannot change the size)
 // 2) For appending of any elements in an array we need to create a new array of length greater than the previous and copy the contents and you can append
+
+// Array is mutable 
